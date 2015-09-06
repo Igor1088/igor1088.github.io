@@ -1,0 +1,101 @@
+body{
+    background-color: #000;
+}
+.nav a{
+    color:#fff;
+    font-size:11px;
+    font-weight:bold;
+    padding:14px 10px;
+    text-transform: uppercase;
+}
+
+.nav li{
+    display: inline;
+}
+
+
+.jumbotron {
+    
+    height: 500px;
+    padding: 80px;
+    background-image: url('https://images.unsplash.com/reserve/iFJ5qQylTD2POC68qBgh_Uluru.jpg?q=80&fm=jpg&s=323d6b3f46db90991ef8e1d8071b547f');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron .container{
+    position: relative;
+    top:100px;
+
+}
+
+.jumbotron h1{
+    color:#ffffff;
+    font-size: 48px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+.jumbotron p{
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: bold;
+}
+
+.contact {
+    background-color: #000;
+    text-align: center;
+    color:#ffffff;
+}
+
+.contact h2{
+    font-family: 'Shift',sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+.contact a{
+    color: #fff;
+    font-size: 20px;
+    margin: 2px;
+    
+}
+.contact p{
+    
+    font-size: 15px;
+    margin: 2px;
+    
+}
+
+.portfolio{
+    background-color: #000;
+    border-bottom: 1px solid #dbdbdb;
+    padding:80px;
+}
+
+.portfolio .container h2{
+    color:#648696;
+    font-size: 35px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-align: center;
+}
+
+.neighborhood-guides p{
+    font-size: 15px;
+    margin-bottom: 13px;
+}
+
+.prImg{ 
+    width:250px;
+    height:200px;
+    border-radius: 5px;
+}
+.used{
+    background-color: #000;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    width:250px;
+    color:#fff;
+}
