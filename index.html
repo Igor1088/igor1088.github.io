@@ -1,132 +1,135 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title></title>
+    <title>Igor Puzovic - Front End Developer</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<div class="header">
+<div class="header" id="home">
     <div class="container">
         <div class="row">
             <div class="col-md-4">
-                <h1>Igor P.</h1>
+                <h1>Igor<span>Puzović</span></h1>
             </div>
             <div class="pull-right">
-                <ul class="nav nav-pills">
-                    <li class="active">
-                        <a href="#">Home</a>
+                <ul class="nav1">
+                    <li>
+                        <a href="#home">Home</a>
                     </li>
                     <li>
                         <a href="#work">Work</a>
                     </li>
                     <li>
-                        <a href="#skills">Skills</a>
+                        <a href="#sk">Skills</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
-                    
+
                 </ul>
             </div>
         </div>
     </div>
 </div>
 
-<div class="jumbotron">
+<div class="jumbotron module parallax parallax-1">
     <div class="container">
-        <h4>Hello,
-        my name is Igor and I'm web developer in training.<br>
-        Available for hire and freelance work.
-                
-        </h4>
+        <h2>Igor Puzović</h2>
+        <h4>Front End Developer</h4>
+
     </div>
 </div>
 
 <div class="main" id="work">
     <div class="container">
-<h1>Some of my works:</h1>
+<h1>Portfolio</h1>
         <div class="row">
             <div class="col-md-4">
-                <a class="thumbnail" href="http://igor1088.github.io/Random-Quote-Machine/">
-                <img src="http://i.imgur.com/1v2EASj.png">              
+            
+                <a class="thumbnail" href="http://codepen.io/IgorBre/full/MaYZyR/" target="_blank">
+                <img src="http://i.imgur.com/WKbcmqR.jpg">
                 </a>
+
+
                 <div class="tech">
                     <h4>Random Quote Machine</h4>
-                    
+
                 </div>
             </div>
             <div class="col-md-4">
-                <a class="thumbnail" href="http://codepen.io/IgorBre/full/PPNyLa/">
-                <img src="http://i.imgur.com/WOygSxR.png">
+                <a class="thumbnail" href="http://codepen.io/IgorBre/full/PPNyLa/" target="_blank">
+                <img src="http://i.imgur.com/p7kvSYg.png">
                 </a>
                 <div class="tech">
                     <h4>Digital Clock</h4>
-                    
+
                 </div>
             </div>
             <div class="col-md-4">
-                <a class="thumbnail" href="http://igor1088.github.io/ToDoList/">
+                <a class="thumbnail" href="http://igor1088.github.io/ToDoList/" target="_blank">
                 <img src="http://i.imgur.com/CBZFogB.png">
                 </a>
                 <div class="tech">
                     <h4>To Do List</h4>
-                    
+
                 </div>
             </div>
-            
+
         </div>
-        <div class="row">
-            <div class="col-md-4">
-                <a class="thumbnail" href="#">
-                <img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p2.jpg">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a class="thumbnail" href="#">
-                <img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p2.jpg">
-                </a>
-            </div>
-            <div class="col-md-4">
-                <a class="thumbnail" href="#">
-                <img src="https://s3.amazonaws.com/codecademy-content/projects/armando-perez/p2.jpg">
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="supporting" id="skills">
-    <div class="container">
-        <h3>Skills:</h3>
-        <ul>
-            <li>JavaScript</li>
-            <li>Jquery</li> 
-            <li>HTML</li>
-            <li>CSS</li>
-            <li>Bootstrap</li>        
-        </ul>
-
-    </div>
-</div>
-
-<div class="footer">
         
-            <p class="footer-links">
-                <a href="#">Home</a>
-                ·
-                <a href="#work">Work</a>
-                ·
-                <a href="#skills">Skills</a>
-                ·
-                <a href="#contact">Contact</a>
-            </p>
+        <p>For more visit</p>
+        <a href="https://github.com/Igor1088" target="_blank" class="btn"><i class="fa fa-github f" ></i>Github</a>
+        <a href="http://codepen.io/IgorBre/" target="_blank" class="btn"><i class="fa fa-codepen f"></i>Codepen</a>
 
-            <p class="footer-name">Igor P. &copy; 2015</p>
-    
+    </div>
+</div>
+
+
+<div class="skills" id="sk">
+    <div class="container ">
+        <p>Skills</p>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>            
+            <li>Bootstrap</li>
+            <li>JavaScript</li>
+            <li>JQuery</li>
+        </ul>
+        
+
+    </div>
+</div>
+
+
+
+<div class="footer" id="contact">
+            <div class="footer-right">
+
+                <a href="http://codepen.io/IgorBre/" target="_blank"><i class="fa fa-codepen"></i></a>
+                <a href="https://github.com/Igor1088" target="_blank"><i class="fa fa-github"></i></a>
+
+            </div>
+
+            <div class="footer-left">
+
+                <p class="footer-links">
+                    <a href="#home">Home</a>
+                    ·
+                    <a href="#work">Work</a>
+                    ·
+                    <a href="#sk">Skills</a>
+                    ·
+                    <a href="#contact">Contact</a>
+                </p>
+                <p><i class="fa fa-envelope f" class="icons"></i>igor.puzovic@yahoo.com</p><br>
+                <p class="footer-name">Igor Puzovic &copy; 2015</p>
+
+            
+
 </div>
 </body>
 </html>
