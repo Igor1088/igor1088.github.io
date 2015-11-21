@@ -8,6 +8,7 @@ body{
     color: #fff;
     
 }
+
 span{
     font-weight: bold;
     color: #586DF5;
@@ -16,10 +17,8 @@ span{
 .header {
     padding: 15px 0;
     color: #fff;
-
     background-color:#292A2B;
 }
-
 
 .header h1{
     color: inherit;
@@ -95,12 +94,9 @@ div.module.parallax-1 {
 .main{
     margin-top: 50px;
     text-align: center;
-    color: #000;
-    color: rgba(0, 0, 0, 0.9);
+    color: #757575;
     font-weight: 700;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     margin-bottom: 50px;
-    background-color: #fff;
 }
 
 .main h1{   
@@ -112,6 +108,7 @@ div.module.parallax-1 {
 .main p{
     font-size: 20px;
     padding-top: 35px;
+    color: #757575;
 }
 
 .main .btn{
@@ -132,26 +129,18 @@ a.btn:hover{
 
 .thumbnail{
     padding: 0;
-    box-shadow: 0px 2px 2px rgba(0,0,0,0.1);
-    border-radius: 0px;
-    border: 0px;
-
-
 }
 
 .thumbnail img{
     height: 150px;
     width: 100%;
     display: block;
-
-
 }
 
 .tech{
     
     text-align: center;
-    color: #fff;
-    background-color: #1c1c1c;
+    color: #757575;
     margin-top: -20px;
     padding-top: 3px;
     padding-bottom: 3px;
@@ -166,11 +155,8 @@ a.btn:hover{
     padding-top: 60px;
     border-top: 1px solid #fff;
     margin-bottom: 20px;
-    color: #fff;
-    color: rgba(245, 245, 245, 0.9);
-    color:#000;
+    color: #757575;
     text-align: center;
-    background-color: #fff;
 }
 
 .skills p{
