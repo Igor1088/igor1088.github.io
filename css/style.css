@@ -15,7 +15,7 @@ span{
 }
 
 .header {
-    padding: 15px 0;
+    padding-top: 10px;
     color: #fff;
     background-color:#292A2B;
 }
@@ -28,8 +28,8 @@ span{
 }
 
 .header ul, .footer ul{
-    padding: 0 20px;
-    margin: 0;
+    padding: 0 20px 10px;
+    margin: auto;
     list-style: none;
 }
 
