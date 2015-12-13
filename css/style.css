@@ -125,27 +125,38 @@ a.btn:hover{
     color: #fff;
 }
 
-
 .thumbnail{
-    padding: 0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .thumbnail img{
-    height: 180px;
+    height: 150px;
     width: 100%;
-    display: block;
 }
 
-.tech{
-    
-    text-align: center;
-    color: #757575;
-    margin-top: -20px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    margin-bottom: 6px;
+.shadow{
+  box-shadow: 7px 7px 7px #666;
+   position : relative;
+  transition : all 0.2s;
+  top : 0;
 }
 
+.hover-text{
+    display: none;
+    position: absolute;
+    background-color: rgba(30,30,30,0.8);
+    padding: 10px;
+    color: #ddd;
+    margin: 5px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 60%;
+    margin: 5px;
+    overflow-y: auto;
+}
 
 
 /* Skills */
@@ -249,7 +260,6 @@ a.btn:hover{
         line-height: 1.8;
     }
 }
-
 
 
 
