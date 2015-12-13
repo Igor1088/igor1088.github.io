@@ -1,4 +1,11 @@
 $(document).ready(function(){
+
+	$('#work .thumbnail').hover(function(){
+		$(this).children('.hover-text').slideDown();
+	}, function(){
+		$(this).children('.hover-text').fadeOut();
+	});
+
 	$('a[href^="#"]').on('click',function (e) {
 	    e.preventDefault();
 
@@ -7,7 +14,7 @@ $(document).ready(function(){
 
 	    $('html, body').stop().animate({
 	        'scrollTop': $target.offset().top-150
-	    }, 900, 'swing', function () {
+	    }, 500, 'swing', function () {
 	        window.location.hash = target;
 	    });
 	});
