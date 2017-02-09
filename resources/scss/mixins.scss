@@ -1,0 +1,23 @@
+@mixin clearfix {
+	&:after {
+		content: "";
+		display: block;
+		clear: both;
+	}
+}
+
+@mixin grid($cols, $mgn){
+  float: left;
+  width: ((100% - (($cols - 1) * $mgn)) / $cols );
+  margin-right: $mgn;
+  margin-bottom: $mgn;
+  &:nth-child(#{$cols}n){
+    margin-right: 0;
+  }
+}
+
+@mixin mQ($arg){
+    @media screen and (max-width: $arg){
+      @content;
+    }
+}
